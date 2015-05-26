@@ -1,0 +1,42 @@
+﻿Using Cartesian coordinate system
+http://en.wikipedia.org/wiki/Cartesian_coordinate_system
+
+
+
+
+
+2 Points meet Joining Lines
+
+x1, y1
+x2, y2
+
+x1 == x2 & (y1 == y2 || y1 == (y2-1) || y1 == (y2+1)
+y1 == y2 & x1 == x2 || x1 == (x2-1) || x1 == (x2+1)
+
+
+
+
+
+Flipping xy on y
+http://www.shelovesmath.com/algebra/advanced-algebra/parent-graphs-and-transformations/
+
+
+
+
+Distance between 2 points
+d = \sqrt{(x2-x1)^2 + (y2-y1)^2}
+
+
+Translation moving # points up/down or x/y by setting a/b
+foreach
+x=x+a
+y=y+b
+
+Rotation
+counterclockwise around origin by some angle \theta 
+x = x cos theta - y sin theta
+y = x sin theta + y cos theta
+
+Scaling s is same value for each
+x = s*x
+y = s*y
